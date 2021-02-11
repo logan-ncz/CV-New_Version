@@ -1,0 +1,204 @@
+/* 
+
+CV de Logan
+
+Par
+
+Logan Nochez
+
+*/
+
+/* Définition des polices personnalisées */
+@font-face
+{
+    font-family: 'lato-regular';
+    src: url('lato/Lato-Regular.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'lato-medium';
+    src: url('lato/Lato-Medium.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'lato-light';
+    src: url('lato/Lato-Light.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'lato-semibold';
+    src: url('lato/Lato-Semibold.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'lato-bold';
+    src: url('lato/Lato-Bold.ttf') format('truetype');
+}
+
+/* Elements principaux de la page */
+
+.bloc_page
+{
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+
+h1
+{
+    font-family: 'lato-light', Arial, sans-serif;
+    font-size: 2.9em;
+    font-weight: normal;
+    text-transform: uppercase;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 span
+{
+    color: #2196F3;
+    font-family: 'lato-medium', Arial, sans-serif;
+}
+
+.contenu section
+{
+    width: 85%;
+    margin: auto;
+}
+
+strong
+{
+    font-family: 'lato-bold', Arial, sans-serif;
+}
+
+/* Partie gauche ou "aside" */
+
+aside
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 32%;
+    border-top: 2px solid #1565C0;
+    border-left: 2px solid #1565C0;
+    border-bottom: 2px solid #1565C0;
+    background-color: #2196F3;
+}
+
+.photo_cv
+{
+    display: flex;
+    justify-content: center;
+    padding: 7%;
+    margin-bottom: -20%;
+}
+
+.photo_cv img
+{
+    border: 3px solid #1565C0;
+    border-radius: 100%;
+}
+
+aside h2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'lato-medium', Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #2196F3;
+    background-color: #404040;
+    height: 48px;
+}
+
+.aside_container
+{
+    font-family: 'lato-medium', Arial, sans-serif;
+    font-size: 1em;
+    color: #404040;
+    width: 80%;
+    margin: auto;
+}
+
+.hard_skills div
+{
+    font-family: 'lato-bold', Arial, sans-serif;
+}
+
+.loisirs p
+{
+    text-align: center;
+}
+
+.loisirs img
+{
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+/* Partie droite ou "contenu" */
+
+.identite
+{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+    margin-bottom: 8%;
+}
+
+h1 + p
+{
+    font-family: 'lato-semibold', Arial, sans-serif;
+    font-size: 1.5em;
+    color: #4a4a4a;
+}
+
+p span
+{
+    text-decoration: underline #2196F3;
+}
+
+.contenu
+{
+    width: 68%;
+    border-top: 2px solid #cfcfcf;
+    border-right: 2px solid #cfcfcf;
+    border-bottom: 2px solid #cfcfcf;
+}
+
+.contenu h2
+{
+    display: flex;
+    align-items: center;
+    font-family: 'lato-bold', Arial, sans-serif;
+    font-size: 1.6em;
+    border-bottom: 2px #2196F3 solid;
+    text-transform: uppercase;
+    margin-bottom: auto;
+}
+
+.diplomes_et_formations p, ul, .experiences_professionnelles p
+{
+    font-family: 'lato-medium', Arial, sans-serif;
+    font-size: 1.1em;
+    color: #404040;
+}
+
+.diplomes_et_formations p, .experiences_professionnelles p, .soft_skills p
+{
+    padding-top: 2%;
+}
+
+.soft_skills p
+{
+    font-family: 'lato-bold', Arial, sans-serif;
+    font-size: 1.1em;
+    color: #404040;
+}
