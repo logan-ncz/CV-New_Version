@@ -236,11 +236,18 @@ p span
     .contenu
     {
         width: 100%;
+        border-top: 0px;
+        border-left: 2px solid #cfcfcf;
     }
 
     .contenu .identite
     {
         display: none;
+    }
+
+    .contenu h2
+    {
+        font-size: 1.5em;
     }
 
     aside .identite
